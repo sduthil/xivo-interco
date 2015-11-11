@@ -11,6 +11,8 @@ WARNING4: Fonctionne à partir de 15.18.
 
 WARNING5: Vous devez vérifier que tous les ports nécessaires pour les communications réseaux sont bien ouverts (cf. section networking dans la doc xivo)
 
+WARNING6: La configuration doit être faite pour chacun des XiVO que vous souhaitez raccorder ensemble. Donc par exemple si j'ai 6 XiVO à raccorder, il faudra ajouter la config pour 6 XiVO par XiVO. Excepter sur la federation policies.
+
 Schema
 ------
 
