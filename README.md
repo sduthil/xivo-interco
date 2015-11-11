@@ -13,6 +13,8 @@ WARNING5: Vous devez vérifier que tous les ports nécessaires pour les communic
 
 WARNING6: La configuration doit être faite pour chacun des XiVO que vous souhaitez raccorder ensemble. Donc par exemple si j'ai 6 XiVO à raccorder, il faudra ajouter la config pour 6 XiVO par XiVO. Excepter sur la federation policies.
 
+WARNING7: Ajouter des régles de firewall sur le port http de ctid et consul qui ne sont pas authentifiés pour le moment dans un environnement ouvert à tous.
+
 Schema
 ------
 
