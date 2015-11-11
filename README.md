@@ -9,6 +9,8 @@ WARNING3: Nécessite une coupure de service lors de la configuration
 
 WARNING4: Fonctionne à partir de 15.18.
 
+WARNING5: Vous devez vérifier que tous les ports nécessaires pour les communications réseaux sont bien ouverts (cf. section networking dans la doc xivo)
+
 Schema
 ------
 
@@ -74,7 +76,7 @@ Relancer le serveur CTI
 
     service xivo-ctid restart
 
-Vérifier que le service est bien enregistré avec une IP joignable par les autres serveurs CTI. (attention au firewall)
+Vérifier que le service est bien enregistré avec une IP joignable par les autres serveurs CTI.
 
     apt-get install consul-cli
 
