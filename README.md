@@ -69,7 +69,8 @@ Configurer CTI
 Faire un fichier custom dans /etc/xivo-ctid/conf.d sur chaque serveur ex. myconfig.yml
 
     rest_api:
-      listen: 0.0.0.0
+      http:
+        listen: 0.0.0.0
     service_discovery:
       advertise_address: 192.168.1.124
       check_url: http://192.168.1.124:9495/0.1/infos
