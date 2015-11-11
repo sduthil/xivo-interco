@@ -1,11 +1,13 @@
 Configuration multi XiVO
 ========================
 
-WARNING1: Il est plus prudent de connecter des xivo ensemble avec une même version. Marche à partir de 15.18.
+WARNING1: Il est plus prudent de connecter des xivo ensemble avec une même version.
 
 WARNING2: En cas de copie d'une VM à une autre ou du meme genre le UUID est le même, donc il faut le changer. dans la table infos de la base asterisk. puis tout relancer. Il faut aussi faire du menage dans consul.
 
 WARNING3: Nécessite une coupure de service lors de la configuration
+
+WARNING4: Fonctionne à partir de 15.18.
 
 Configuration Dird
 ------------------
