@@ -1,7 +1,13 @@
+Configuration multi XiVO
+========================
+
+WARNING1: Il est plus prudent de connecter des xivo ensemble avec une même version. Marche à partir de 15.18.
+
+WARNING2: En cas de copie d'une VM à une autre ou du meme genre le UUID est le même, donc il faut le changer. dans la table infos de la base asterisk. puis tout relancer. Il faut aussi faire du menage dans consul.
+
+
 Configuration Dird
 ------------------
-
-Warning : Il est plus prudent de connecter des xivo ensemble avec une même version. Marche à partir de 15.18.
 
 Pour dird une fois configuré le confd dans l'interface web, ajouter un utilisateur sur le web service distant ou l'IP puis ajouter un fichier de config dans dird.
 
@@ -42,9 +48,6 @@ Configurer la fédération
 Pour connaître le status
 
     rabbitmqctl eval 'rabbit_federation_status:status().'
-
-
-WARNING: En cas de copie d'une VM à une autre ou du meme genre le UUID est le même, donc il faut le changer. dans la table infos de la base asterisk. puis tout relancer. Il faut aussi faire du menage dans consul.
 
 
 Configurer CTI
