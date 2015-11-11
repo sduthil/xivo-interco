@@ -9,6 +9,12 @@ WARNING3: Nécessite une coupure de service lors de la configuration
 
 WARNING4: Fonctionne à partir de 15.18.
 
+Schema
+------
+
+![screenshot](/schemas/xivo_n2.png?raw=true "schema")
+
+
 Configuration Dird
 ------------------
 
