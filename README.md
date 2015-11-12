@@ -33,20 +33,20 @@ Ajout XiVO
 
 Après il faut ajouter cette source en créant le serveur.
 
-Aller dans IPBX->Serveur CTI->Management->Directories
+Aller dans IPBX->Serveur CTI->Management->Répertoire
 
 ![list contact source server](/screenshots/list_contact_source_server.png?raw=true "list contact source server")
 ![add contact source server](/screenshots/add_contact_source_server.png?raw=true "add contact source server")
 
 Après vous devez ajouter ce source de contact dans votre serveur de contact.
 
-![add directory](/screenshots/add_directory.png?raw=true "add directory")
-![add server directory](/screenshots/add_server_directory.png?raw=true "add server directory")
+![list definition server](/screenshots/definition_server.png?raw=true "list definition server")
+![configure definition](/screenshots/configure_definition.png?raw=true "configure definition")
 
 Puis ajouter l'ajouter dans vos recherches authorisées.
 
-![list definition server](/screenshots/definition_server.png?raw=true "list definition server")
-![configure definition](/screenshots/configure_definition.png?raw=true "configure definition")
+![add directory](/screenshots/add_directory.png?raw=true "add directory")
+![add server directory](/screenshots/add_server_directory.png?raw=true "add server directory")
 
 
 Configuration Dird
