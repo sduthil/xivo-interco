@@ -15,7 +15,7 @@ WARNING6: La configuration doit être faite pour chacun des XiVO que vous souhai
 
 WARNING7: Ajouter des régles de firewall sur le port http de ctid et consul qui ne sont pas authentifiés pour le moment dans un environnement ouvert à tous.
 
-WARNING8: Dans une architecture avec beaucoup de XiVO, il est conseillé de sortir certains services comme dird pour simplifier la gestion. Pensez à les mettre en HA. Valable pour rabbitmq et consul.
+WARNING8: Dans une architecture avec beaucoup de XiVO, il est conseillé de sortir certains services comme dird pour simplifier la gestion. Pensez à les mettre en HA. Valable pour rabbitmq et consul. LA configuration sera manuel avec des fichiers de configuration YAML.
 
 Schema
 ------
