@@ -33,10 +33,12 @@ Ajout XiVO
 
 Après il faut ajouter cette source en créant le serveur.
 
-Aller dans IPBX->Serveur CTI->Management->Répertoire
+Aller dans Configuration->Management->Répertoire
 
 ![list contact source server](/screenshots/list_contact_source_server.png?raw=true "list contact source server")
 ![add contact source server](/screenshots/add_contact_source_server.png?raw=true "add contact source server")
+
+Aller dans Services->Serveur CTI->Répertoires->Définition
 
 Après vous devez ajouter ce source de contact dans votre serveur de contact.
 
