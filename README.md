@@ -43,7 +43,7 @@ Après vous devez ajouter ce source de contact dans votre serveur de contact.
 ![list definition server](/screenshots/definition_server.png?raw=true "list definition server")
 ![configure definition](/screenshots/configure_definition.png?raw=true "configure definition")
 
-Puis ajouter l'ajouter dans vos recherches authorisées.
+Puis ajouter l'ajouter dans vos recherches autorisées.
 
 ![add directory](/screenshots/add_directory.png?raw=true "add directory")
 ![add server directory](/screenshots/add_server_directory.png?raw=true "add server directory")
