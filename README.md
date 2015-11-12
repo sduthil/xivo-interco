@@ -28,8 +28,8 @@ Vous devez en premier lieu sur vos XiVO autoriser une connexion distante sur vot
 ![create user ws](/screenshots/create_user_ws.png?raw=true "create user ws")
 ![list user ws](/screenshots/user_ws.png?raw=true "list user ws")
 
-Ajout XiVO
-----------
+Ajout de la nouvelle source
+---------------------------
 
 Après il faut ajouter cette source en créant le serveur.
 
