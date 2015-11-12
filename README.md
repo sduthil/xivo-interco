@@ -20,6 +20,32 @@ Schema
 
 ![screenshot](/schemas/xivo_n2.png?raw=true "schema")
 
+Authoriser un utilisateur webservice
+------------------------------------
+
+Vous devez en premier lieu sur vos XiVO autoriser une connexion distante sur votre annuaire d'utilisateur interne. Pour cela vous devez créer un utilisateur en l'authorisant soit par IP soit par login/pass.
+
+![list user ws](/screenshots/user_ws.png?raw=true "list user ws")
+![create user ws](/screenshots/create_user_ws.png?raw=true "create user ws")
+
+Ajout XiVO
+----------
+
+Après il faut ajouter cette source en créant le serveur.
+
+![add contact source server](/screenshots/add_contact_source_server.png?raw=true "add contact source server")
+![list contact source server](/screenshots/list_contact_source_server.png?raw=true "list contact source server")
+
+Après vous devez ajouter ce source de contact dans votre serveur de contact.
+
+![add directory](/screenshots/add_directory.png?raw=true "add directory")
+![add server directory](/screenshots/add_server_directory.png?raw=true "add server directory")
+
+Puis ajouter l'ajouter dans vos recherches authorisées.
+
+![list definition server](/screenshots/definition_server.png?raw=true "list definition server")
+![configure definition](/screenshots/configure_definition.png?raw=true "configure definition")
+
 
 Configuration Dird
 ------------------
