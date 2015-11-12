@@ -20,21 +20,23 @@ Schema
 
 ![screenshot](/schemas/xivo_n2.png?raw=true "schema")
 
-Authoriser un utilisateur webservice
+Autoriser un utilisateur webservice
 ------------------------------------
 
-Vous devez en premier lieu sur vos XiVO autoriser une connexion distante sur votre annuaire d'utilisateur interne. Pour cela vous devez créer un utilisateur en l'authorisant soit par IP soit par login/pass.
+Vous devez en premier lieu sur vos XiVO autoriser une connexion distante sur votre annuaire d'utilisateur interne. Pour cela vous devez créer un utilisateur en l'autorisant soit par IP soit par login/pass.
 
-![list user ws](/screenshots/user_ws.png?raw=true "list user ws")
 ![create user ws](/screenshots/create_user_ws.png?raw=true "create user ws")
+![list user ws](/screenshots/user_ws.png?raw=true "list user ws")
 
 Ajout XiVO
 ----------
 
 Après il faut ajouter cette source en créant le serveur.
 
-![add contact source server](/screenshots/add_contact_source_server.png?raw=true "add contact source server")
+Aller dans IPBX->Serveur CTI->Management->Directories
+
 ![list contact source server](/screenshots/list_contact_source_server.png?raw=true "list contact source server")
+![add contact source server](/screenshots/add_contact_source_server.png?raw=true "add contact source server")
 
 Après vous devez ajouter ce source de contact dans votre serveur de contact.
 
