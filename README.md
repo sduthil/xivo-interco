@@ -67,6 +67,8 @@ Ajouter votre fichier myconfig.yml
     sources:
       monxivo:
         confd_config:
+          username: sylvain
+          password: sylvain
           verify_certificate: false
 
 Relancer dird
