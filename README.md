@@ -192,3 +192,8 @@ Pour vérifier le status.
 
     consul members -wan
     consul monitor
+
+XiVO client
+-----------
+
+Vous n'avez rien à faire, vous pouvez maintenant vous connecter et rechercher à partir de la Xlet people n'importe quelles personnes de vos différents XiVO et vous aurez également leur présence téléphonique, utilisateur et agent.
