@@ -54,11 +54,11 @@ Puis l'ajouter dans vos recherches autorisées.
 Configuration Dird
 ------------------
 
-Pour dird une fois configuré le confd dans l'interface web, ajouter un utilisateur sur le web service distant ou l'IP puis ajouter un fichier de config dans dird.
+Pour dird une fois configuré le confd dans l'interface web, nous devons ajouter des modifications que l'interface web ne supporte pas encore. Pour cela ajouter un fichier de config personnalisé pour dird dans le répertoire /etc/xivo-dird/conf.d.
 
-genre myconfig.yml dans /etc/xivo-dird/conf.d
+Example: myconfig.yml
 
-Pour trouver le nom du xivo ajouté lancer la commande :
+Pour trouver le nom du xivo ajouté lancer la commande mais c'est le même nom que dans l'interface web :
 
     xivo-confgen dird/sources.yml
     
@@ -100,7 +100,7 @@ Pour connaître le status
 Configurer CTI
 ---------------
 
-Faire un fichier custom dans /etc/xivo-ctid/conf.d sur chaque serveur ex. myconfig.yml
+Faire un fichier custom dans /etc/xivo-ctid/conf.d sur chaque serveur (ex. myconfig.yml)
 
     rest_api:
       http:
@@ -172,23 +172,23 @@ Pour vérifier si le fichier est correct.
 
     consul configtest --config-dir /etc/consul/xivo/
 
-Relancer consul
+Relancer consul.
 
     service consul start
 
-Faire un restaure
+Faire un restaure de la base KV.
 
     xivo-restore-consul-kv -i /tmp/backup-consul-kv.json
 
-Relancer les services
+Relancer les services.
 
     xivo-service start
 
-Puis joindre un membre 
+Puis joindre un membre.
 
     consul join -wan 192.168.1.125
 
-Pour vérifier
+Pour vérifier le status.
 
     consul members -wan
     consul monitor
