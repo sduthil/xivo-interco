@@ -1,6 +1,8 @@
 Configuration multi XiVO
 ========================
 
+TODO1: Ajouter encrypt dans la configuration pour chiffrer le RPC.
+
 WARNING1: Il est plus prudent de connecter des XiVO ensemble avec une même version.
 
 WARNING2: En cas de clonage d'une VM, ou toute autre duplication de la base de données XiVO, le UUID du XiVO est le même, donc il faut le changer dans la table `infos` de la base `asterisk`, puis tout relancer. Il faut aussi faire du ménage dans consul (cf. configuration de consul).
