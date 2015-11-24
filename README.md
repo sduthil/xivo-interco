@@ -9,7 +9,7 @@ WARNING2: En cas de clonage d'une VM, ou toute autre duplication de la base de d
 
 WARNING3: Nécessite une coupure de service lors de la configuration
 
-WARNING4: Fonctionne à partir de 15.18.
+WARNING4: Fonctionne à partir de 15.19.
 
 WARNING5: Vous devez vérifier que tous les ports nécessaires pour les communications réseaux sont bien ouverts (cf. [section networking dans la doc xivo](http://documentation.xivo.fr/en/stable/contributors/network.html))
 
