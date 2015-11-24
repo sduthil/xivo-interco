@@ -45,7 +45,6 @@ Après il faut ajouter cette source de contacts en créant le serveur xivo-confd
 Aller dans Configuration->Management->Répertoire
 
 ![list contact source server](/screenshots/list_contact_source_server.png?raw=true "list contact source server")
-![add contact source server](/screenshots/add_contact_source_server.png?raw=true "add contact source server")
 ![add contact source server](/screenshots/xivo_add_directory_xivo.png?raw=true "add contact source server")
 
 Aller dans Services->Serveur CTI->Répertoires->Définition
@@ -61,7 +60,7 @@ Puis l'ajouter dans vos recherches autorisées.
 ![add server directory](/screenshots/add_server_directory.png?raw=true "add server directory")
 
 
-Une fois le service configuré vous devez redéméarrer votre service dird, à
+Une fois le service configuré, vous devez redémarrer votre service dird, à
 partir du menu dans Services->IPBX ou en ligne de commande sur le serveur.
 
     service xivo-dird restart
