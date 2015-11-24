@@ -84,10 +84,6 @@ Configurer la fédération
     rabbitmqctl set_parameter federation-upstream xivo-dev-2 '{"uri":"amqp://xivo:xivo@192.168.1.125","max-hops":1}'  # adresse IP distante
     rabbitmqctl set_policy federate-xivo 'xivo' '{"federation-upstream-set":"all"}' --priority 1 --apply-to exchanges
 
-Pour connaître le statut
-
-    rabbitmqctl eval 'rabbit_federation_status:status().'
-
 
 Configurer le serveur CTI
 -------------------------
@@ -199,3 +195,4 @@ Si ça ne fonctionne pas du premier coup, les commandes intéressantes pour diag
     consul monitor
     consul members -wan
     consul-cli agent-services --ssl --ssl-verify=false
+    rabbitmqctl eval 'rabbit_federation_status:status().'
