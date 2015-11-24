@@ -46,6 +46,7 @@ Aller dans Configuration->Management->Répertoire
 
 ![list contact source server](/screenshots/list_contact_source_server.png?raw=true "list contact source server")
 ![add contact source server](/screenshots/add_contact_source_server.png?raw=true "add contact source server")
+![add contact source server](/screenshots/xivo_add_directory_xivo.png?raw=true "add contact source server")
 
 Aller dans Services->Serveur CTI->Répertoires->Définition
 
@@ -60,21 +61,8 @@ Puis l'ajouter dans vos recherches autorisées.
 ![add server directory](/screenshots/add_server_directory.png?raw=true "add server directory")
 
 
-Configuration Dird
-------------------
-
-Pour xivo-dird une fois configuré le xivo-confd dans l'interface web, nous devons ajouter des modifications que l'interface web ne supporte pas encore. Pour cela ajouter un fichier de config personnalisé pour xivo-dird dans le répertoire `/etc/xivo-dird/conf.d`.
-
-Par exemple, créer un fichier `/etc/xivo-dird/conf.d/xivodev2.yml`
-
-    sources:
-      xivodev2:  # le nom de la source de contacts dans Services->Serveur CTI->Répertoires->Définition
-        confd_config:
-          username: sylvain  # le login de l'accès webservice créé plus haut
-          password: sylvain  # le mot de passe de l'accès webservice créé plus haut
-          verify_certificate: false  # autres valeurs: `true` si le certificat du XiVO d'en face est signé, `/chemin/vers/le/certificat/distant` s'il est autosigné
-
-Relancer xivo-dird
+Une fois le service configuré vous devez redéméarrer votre service dird, à
+partir du menu dans Services->IPBX ou en ligne de commande sur le serveur.
 
     service xivo-dird restart
 
