@@ -40,7 +40,7 @@ Vous devez en premier lieu sur chaque XiVO autoriser une connexion distante sur 
 Ajout de la nouvelle source de contacts
 ---------------------------------------
 
-Après il faut ajouter cette source de contacts en créant le serveur xivo-confd du XiVO d'en face.
+Après il faut ajouter cette source de contacts en créant le serveur xivo-confd du XiVO d'en face. Il est recommandé de commencer sans vérification du certificat, puis une fois que les connexions sont validées, activer la vérification des certificats. La raison est qu'il est facile d'être bloqué par cette vérification.
 
 Aller dans Configuration->Management->Répertoire
 
@@ -129,7 +129,7 @@ Vérifier que le service est bien enregistré avec une IP joignable par les autr
 Configurer consul
 -----------------
 
-Faire un backup de la base KV avant.
+Faire un backup de la base KV avant. Cette étape est obligatoire, le backup nous servira plus tard.
 
     xivo-backup-consul-kv -o /tmp/backup-consul-kv.json
 
