@@ -22,7 +22,7 @@ WARNING8: Dans une architecture avec beaucoup de XiVO, il est conseillé de cent
 Schema
 ------
 
-![screenshot](/schemas/xivo_n2.png?raw=true "schema")
+![screenshot](schemas/xivo_n2.png?raw=true "schema")
 
 Pour la suite, les adresses IP sont:
 
@@ -34,8 +34,8 @@ Autoriser un utilisateur webservice
 
 Vous devez en premier lieu sur chaque XiVO autoriser une connexion distante sur votre annuaire d'utilisateurs interne. Pour cela vous devez créer un accès webservice en l'autorisant soit par IP soit par login/pass.
 
-![create user ws](/screenshots/create_user_ws.png?raw=true "create user ws")
-![list user ws](/screenshots/user_ws.png?raw=true "list user ws")
+![create user ws](screenshots/create_user_ws.png?raw=true "create user ws")
+![list user ws](screenshots/user_ws.png?raw=true "list user ws")
 
 Ajout de la nouvelle source de contacts
 ---------------------------------------
@@ -44,20 +44,20 @@ Après il faut ajouter cette source de contacts en créant le serveur xivo-confd
 
 Aller dans Configuration->Management->Répertoire
 
-![list contact source server](/screenshots/list_contact_source_server.png?raw=true "list contact source server")
-![add contact source server](/screenshots/xivo_add_directory_xivo.png?raw=true "add contact source server")
+![list contact source server](screenshots/list_contact_source_server.png?raw=true "list contact source server")
+![add contact source server](screenshots/xivo_add_directory_xivo.png?raw=true "add contact source server")
 
 Aller dans Services->Serveur CTI->Répertoires->Définition
 
 Ensuite vous devez ajouter cette source de contact dans votre serveur de contact.
 
-![list definition server](/screenshots/definition_server.png?raw=true "list definition server")
-![configure definition](/screenshots/configure_definition.png?raw=true "configure definition")
+![list definition server](screenshots/definition_server.png?raw=true "list definition server")
+![configure definition](screenshots/configure_definition.png?raw=true "configure definition")
 
 Puis l'ajouter dans vos recherches autorisées.
 
-![add directory](/screenshots/add_directory.png?raw=true "add directory")
-![add server directory](/screenshots/add_server_directory.png?raw=true "add server directory")
+![add directory](screenshots/add_directory.png?raw=true "add directory")
+![add server directory](screenshots/add_server_directory.png?raw=true "add server directory")
 
 
 Une fois le service configuré, vous devez redémarrer votre service dird, à
